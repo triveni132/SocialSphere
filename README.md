@@ -11,7 +11,6 @@ Ideal for:
 - Quick demos
 - Portfolio enhancement
 
-⚠️ Note: All user data (posts, comments, likes, etc.) is **not persistent** and will reset on page refresh.
 
 🔗 **Live Demo**: (https://social-sphere-9esk.vercel.app/)
 
