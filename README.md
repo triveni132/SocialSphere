@@ -13,7 +13,7 @@ Ideal for:
 
 ⚠️ Note: All user data (posts, comments, likes, etc.) is **not persistent** and will reset on page refresh.
 
-🔗 **Live Demo**: [https://code-alpha-social-sphere-cq4y.vercel.app/](https://code-alpha-social-sphere-cq4y.vercel.app/)
+🔗 **Live Demo**: (https://social-sphere-9esk.vercel.app/)
 
 ---
 
@@ -34,9 +34,6 @@ Ideal for:
 - 👥 **Follow System**  
   Follow or unfollow other users; user feed updates accordingly.
 
-- 🔄 **Real-Time Updates**  
-  All interactions update instantly using JavaScript's in-memory model.
-
 - 📱 **Responsive UI**  
   Clean, modern design that works on mobile, tablet, and desktop.
 
@@ -50,7 +47,4 @@ Ideal for:
 | Logic     | JavaScript (ES6+)          |
 | Hosting   | [Vercel](https://vercel.com)              |
 
----
-
-## 📂 Project Structure
 
