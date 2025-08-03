@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialSphere - Mini Social Media</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌐 SocialSphere</h1>
+            <p>Connect, Share, Engage</p>
+            <div class="user-selector">
+                <button class="user-btn active" data-user="alice">Alice</button>
+                <button class="user-btn" data-user="bob">Bob</button>
+                <button class="user-btn" data-user="charlie">Charlie</button>
+                <button class="user-btn" data-user="diana">Diana</button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="profile-card">
+                    <div class="profile-avatar" id="currentUserAvatar">A</div>
+                    <div class="profile-name" id="currentUserName">Alice Johnson</div>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <div class="stat-number" id="postsCount">0</div>
+                            <div class="stat-label">Posts</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" id="followingCount">0</div>
+                            <div class="stat-label">Following</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" id="followersCount">0</div>
+                            <div class="stat-label">Followers</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="suggestedUsers">
+                    <h3 style="margin-bottom: 15px; color: #333;">Suggested Users</h3>
+                </div>
+            </div>
+
+            <div class="feed">
+                <div class="create-post">
+                    <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+                    <div class="post-actions">
+                        <div style="color: #666; font-size: 0.9rem;">
+                            <span id="charCount">0</span>/280 characters
+                        </div>
+                        <button class="post-btn" id="createPostBtn">Share Post</button>
+                    </div>
+                </div>
+
+                <div id="feedContainer">
+                    <!-- Posts will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
